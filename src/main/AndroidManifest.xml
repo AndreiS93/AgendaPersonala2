@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.personalagenda"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.personalagenda.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.Contact"
+            android:label="Dezvoltator" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.Contact" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.TransportUTCN"
+            android:label="Dezvoltator" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.TransportUTCN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.Contacte"
+            android:label="Contacte" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.Contacte" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.ContacteAdaugareContact"
+            android:label="Adauga contact" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.ContacteAdaugareContact" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.Menu"
+            android:label="Meniu" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.DailyPlanner"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.PassPrompt"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.PASSPROMPT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.ContacteViewContacts"
+            android:label="Vizualizare contacte" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.ContacteViewContacts" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.ContacteGetContactInfo"
+            android:label="Informatii contact" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.ContacteGetContactInfo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.ContacteDeleteContact"
+            android:label="Stergere contacte" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.ContacteDeleteContact" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.Memo"
+            android:label="Memo-uri" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.Memo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.MemoViewGroups"
+            android:label="@string/memo_view_group_titlu" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.MemoViewGroups" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.MemoViewMemos"
+            android:label="@string/memo_view_memo_titlu" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.MemoViewMemos" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.MemoModifyGroup"
+            android:label="@string/memo_modif_group_titlu" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.MemoModifyGroup" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.MemoViewMemoDetail"
+            android:label="@string/memo_view_memo_detalii" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.MemoViewMemoDetail" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.personalagenda.MemoModifyMemo"
+            android:label="@string/memo_modif_memo_memo" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.MemoModifyMemo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ccom.example.personalagenda.MemoActionBar"
+            android:label="@string/setari" >
+            <intent-filter>
+                <action android:name="com.example.personalagenda.MemoActionBar" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

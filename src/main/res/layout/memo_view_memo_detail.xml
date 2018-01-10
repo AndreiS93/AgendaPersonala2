@@ -1,0 +1,134 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_background"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/memo_view_memo_detail_tv_titlu_memo"
+                android:padding="3dip"
+                android:text="Titlu"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                  />
+
+            <TextView
+                android:id="@+id/memo_view_memo_detail_tv_continut_memo"
+                android:gravity="right"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FFFFFFFF" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/memo_view_memo_detail_tv_titlu_data"
+                android:padding="3dip"
+                android:text="Data"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                  />
+
+            <TextView
+                android:id="@+id/memo_view_memo_detail_tv_continut_data"
+                android:gravity="right"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FFFFFFFF" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/memo_view_memo_detail_tv_titlu_notite"
+                android:padding="3dip"
+                android:text="Notite"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                  />
+
+            <TextView
+                android:id="@+id/memo_view_memo_detail_tv_continut_notite"
+                android:gravity="right"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FFFFFFFF" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/memo_view_memo_detail_tv_titlu_prioritate"
+                android:padding="3dip"
+                android:text="Prioritate"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                  />
+
+            <TextView
+                android:id="@+id/memo_view_memo_detail_tv_continut_prioritate"
+                android:gravity="right"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FFFFFFFF" />
+
+        <TableRow>
+        </TableRow>
+
+        <TableRow>
+            
+            <TextView
+                android:id="@+id/memo_view_memo_detail_tv_titlu_grup"
+                android:padding="3dip"
+                android:text="Grup"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                  />
+            
+            <TextView
+                android:id="@+id/memo_view_memo_detail_tv_continut_grup"
+                android:gravity="right"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+        
+        <View
+            android:layout_height="2dip"
+            android:background="#FFFFFFFF" />
+
+        <TableRow>
+            
+            <TextView
+                android:id="@+id/memo_view_memo_detail_tv_titlu_statut"
+                android:padding="3dip"
+                android:text="Statut"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                  />
+            
+            <TextView
+                android:id="@+id/memo_view_memo_detail_tv_continut_statut"
+                android:gravity="right"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

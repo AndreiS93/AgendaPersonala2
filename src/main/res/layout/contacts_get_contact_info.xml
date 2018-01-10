@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contacts_get_contact_info_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="@string/contacts_get_contact_info_tv_nume"
+            android:textAppearance="?android:attr/textAppearanceSmall" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/contacts_get_contact_info_et_SQLNume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="85"
+            android:inputType="textPersonName" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="@string/contacts_get_contact_info_tv_prenume"
+            android:textAppearance="?android:attr/textAppearanceSmall" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/contacts_get_contact_info_et_SQLPrenume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="85"
+            android:inputType="textPersonName" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="@string/contacts_get_contact_info_tv_phone_nb_mobile"
+            android:textAppearance="?android:attr/textAppearanceSmall" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/contacts_get_contact_info_et_SQLphoneNumberMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="85"
+            android:inputType="numberDecimal" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="@string/contacts_get_contact_info_tv_phone_nb_home"
+            android:textAppearance="?android:attr/textAppearanceSmall" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/contacts_get_contact_info_et_SQLphoneNumberHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="85"
+            android:inputType="numberDecimal" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="@string/contacts_get_contact_info_tv_phone_nb_work"
+            android:textAppearance="?android:attr/textAppearanceSmall" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/contacts_get_contact_info_et_SQLphoneNumberWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="85"
+            android:inputType="numberDecimal" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="@string/contacts_get_contact_info_tv_email" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/contacts_get_contact_info_et_SQLemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="90"
+            android:inputType="textEmailAddress" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="@string/contacts_get_contact_info_tv_fax"
+            android:textAppearance="?android:attr/textAppearanceSmall" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/contacts_get_contact_info_et_SQLFax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="85"
+            android:inputType="numberDecimal" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="@string/contacts_get_contact_info_tv_adresa" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/contacts_get_contact_info_et_SQLadresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="90"
+            android:inputType="textPostalAddress" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="@string/contacts_get_contact_info_tv_notes" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/contacts_get_contact_info_et_SQLNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="90"
+            android:inputType="textMultiLine"
+            android:lines="2" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="@string/contacts_get_contact_info_tv_id_curent" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/contacts_get_contact_info_et_RowNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="90"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="90" >
+
+        <Button
+            android:id="@+id/contacts_get_contact_info_b_getInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="40"
+            android:text="@string/contacts_get_contact_info_b_informatii" />
+
+        <Button
+            android:id="@+id/contacts_get_contact_info_b_SQLmodify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="40"
+            android:text="@string/contacts_get_contact_info_b_editeaza" />
+
+        <Button
+            android:id="@+id/contacts_get_contact_info_b_Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="10"
+            android:text="@string/contacts_get_contact_info_b_inapoi" />
+    </LinearLayout>
+
+</LinearLayout>

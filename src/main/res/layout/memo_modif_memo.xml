@@ -1,0 +1,140 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_background"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:scrollbarStyle="outsideOverlay" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/memo_modif_memo_tv_titlu_memo"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/memo_modif_memo_et_titlu_memo"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="right"
+                android:hint="@string/memo_modif_memo_et_intr_titlu_memo"
+                android:padding="3dip"
+                android:textColorHint="#ffffff"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FFFFFFFF" />
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/memo_modif_memo_tv_data"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <DatePicker
+                android:id="@+id/memo_modif_memo_dp_data"
+                android:layout_weight="1"
+                android:calendarViewShown="false"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FFFFFFFF" />
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/memo_modif_memo_tv_notita_memo"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/memo_modif_memo_et_notite"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="right"
+                android:hint="@string/memo_modif_memo_et_intr_note_memo"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColorHint="#ffffff"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FFFFFFFF" />
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/memo_modif_memo_tv_prioritate"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Spinner
+                android:id="@+id/memo_modif_memo_sp_prioritate"
+                android:layout_weight="1"
+                android:entries="@array/memo_modif_memo_prioritati_spinner"
+                android:gravity="right"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FFFFFFFF" />
+
+        <TableRow>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/memo_modif_memo_tv_grup"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Spinner
+                android:id="@+id/memo_modif_memo_select_grup"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FFFFFFFF" />
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/memo_modif_memo_tv_statut"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Spinner
+                android:id="@+id/memo_modif_memo_select_status"
+                android:layout_weight="1"
+                android:entries="@array/memo_modif_memo_grad_completare_spinner"
+                android:gravity="right"
+                android:padding="3dip"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

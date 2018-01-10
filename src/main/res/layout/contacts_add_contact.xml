@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contacts_add_contact_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="@string/contacts_add_contact_info_tv_nume"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/contacts_add_contact_et_SQLNume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="85"
+            android:gravity="right"
+            android:hint="Introduceti nume"
+            android:inputType="textPersonName"
+            android:textColorHint="#fffff0"
+            android:textSize="12dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="@string/contacts_add_contact_info_tv_prenume"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/contacts_add_contact_et_SQLPrenume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="85"
+            android:gravity="right"
+            android:hint="Introduceti prenume"
+            android:inputType="textPersonName"
+            android:textColorHint="#fffff0"
+            android:textSize="12dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="@string/contacts_add_contact_info_tv_phone_nb_mobile"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/contacts_add_contact_et_SQLphoneNumberMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="85"
+            android:gravity="right"
+            android:hint="Introduceti nr. telefon mobil"
+            android:inputType="numberDecimal"
+            android:textColorHint="#fffff0"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="@string/contacts_add_contact_info_tv_phone_nb_home"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/contacts_add_contact_et_SQLphoneNumberHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="85"
+            android:gravity="right"
+            android:hint="Introduceti nr. telefon acasa"
+            android:inputType="numberDecimal"
+            android:textColorHint="#fffff0"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="@string/contacts_add_contact_info_tv_phone_nb_work"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/contacts_add_contact_et_SQLphoneNumberWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="85"
+            android:gravity="right"
+            android:hint="Introduceti nr. telefon loc de munca"
+            android:inputType="numberDecimal"
+            android:textColorHint="#fffff0"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="@string/contacts_add_contact_info_tv_email" />
+
+        <EditText
+            android:id="@+id/contacts_add_contact_et_SQLemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="90"
+            android:gravity="right"
+            android:hint="Introduceti adresa de e-mail"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#fffff0"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="@string/contacts_add_contact_info_tv_fax"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/contacts_add_contact_et_SQLFax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="85"
+            android:gravity="right"
+            android:hint="Introduceti nr. fax"
+            android:inputType="numberDecimal"
+            android:textColorHint="#fffff0"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="@string/contacts_add_contact_info_tv_adresa" />
+
+        <EditText
+            android:id="@+id/contacts_add_contact_et_SQLadresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="90"
+            android:gravity="right"
+            android:hint="Introduceti adresa postala"
+            android:inputType="textPostalAddress"
+            android:textColorHint="#fffff0"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="@string/contacts_add_contact_info_tv_notes" />
+
+        <EditText
+            android:id="@+id/contacts_add_contact_et_SQLNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="70"
+            android:gravity="right"
+            android:hint="Introduceti notite"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:textColorHint="#fffff0"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/contacts_add_contact_b_SQLUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/contacts_add_contact_b_add_contact" />
+
+        <Button
+            android:id="@+id/contacts_add_contact_b_Add_Cont_Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/contacts_add_contact_b_SQLUpdate"
+            android:text="@string/contacts_add_contact_b_back" />
+    </RelativeLayout>
+
+</LinearLayout>

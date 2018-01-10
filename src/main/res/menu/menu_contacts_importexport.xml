@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <item 
+        android:id="@+id/contacts_saveDb"
+        android:showAsAction="always"
+        android:icon="@drawable/arrow_up_float"
+        android:title="@string/memo_modif_memo_actBar_salveaza" />
+    
+    <item 
+        android:id="@+id/contacts_getDb"
+        android:showAsAction="always"
+        android:icon="@drawable/arrow_down_float"
+        android:title="@string/memo_modif_memo_actBar_renunta" />
+</menu>

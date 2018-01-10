@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <item
+        android:id="@+id/view_gr_actBar_addGr"
+        android:showAsAction="always"
+        android:title="@string/memo_view_group_actBar_adauga_grup"
+        android:icon="@android:drawable/ic_menu_add" />
+    
+
+</menu>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+	<item
+	    android:id="@+id/modify_group_actBar_salveaza"
+	    android:showAsAction="always"
+	    android:title="@string/memo_modif_group_actBar_salveaza"
+	    android:icon="@android:drawable/ic_menu_save" />
+	
+	<item 
+	    android:id="@+id/modify_group_actBar_renunta"
+	    android:showAsAction="always"
+	    android:title="@string/memo_modif_group_actBar_renunta"
+	    android:icon="@android:drawable/ic_menu_close_clear_cancel" />
+</menu>

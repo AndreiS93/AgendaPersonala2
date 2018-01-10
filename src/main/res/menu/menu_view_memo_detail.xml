@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    
+    <item
+        android:id="@+id/memo_detail_actBar_edit"
+        android:title="@string/memo_view_memo_detalii_actBar_renuntati"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_edit" />
+    
+    <item
+        android:id="@+id/memo_detail_actBar_delete"
+        android:title="@string/memo_view_memo_detalii_actBar_stergeMemo"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_delete" />
+</menu>
